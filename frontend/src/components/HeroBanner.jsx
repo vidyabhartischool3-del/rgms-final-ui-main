@@ -32,7 +32,7 @@ const HeroBanner = () => {
                   alt={b.alt}
                   loading={i === 0 ? 'eager' : 'lazy'}
                   decoding="async"
-                  className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-[700ms] ease-out select-none pointer-events-none"
+                  className="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-700 ease-out select-none pointer-events-none"
                   draggable={false}
                 />
                 {/* Shimmer overlay sweep */}
